@@ -66,6 +66,46 @@ Convertify is a versatile, interactive command-line tool written in Go for conve
 2. Ensure read/write permissions for the input and output directories.
 3. Powershell scripts for document conversion must be configured and accessible in the project directory.
 
+## **Future Enhancements** 🚀
+
+### **1. Video Processing**
+- [ ] Video compression with configurable quality
+- [ ] Format conversion (MP4, AVI, MKV, etc.)
+- [ ] Video trimming and merging
+- [ ] Extract audio from video
+- [ ] Batch video processing
+
+### **2. Audio Processing**
+- [ ] Audio format conversion (MP3, WAV, AAC, etc.)
+- [ ] Audio compression
+- [ ] Basic audio editing (trim, merge)
+- [ ] Metadata management
+
+### **3. Document Enhancements**
+- [ ] Support for more document formats (ODT, RTF, etc.)
+- [ ] Batch document conversion
+- [ ] Document merging
+- [ ] PDF compression
+
+### **4. Image Processing Extensions**
+- [ ] Support for more image formats (WEBP, GIF, TIFF)
+- [ ] Batch image processing
+- [ ] Basic image editing (resize, crop, rotate)
+- [ ] Image optimization for web
+- [ ] Metadata preservation options
+
+### **5. Cloud Integration**
+- [ ] Direct upload/download from cloud storage
+- [ ] Integration with popular cloud services (Google Drive, Dropbox)
+- [ ] Cloud-based processing options
+
+### **6. Advanced Features**
+- [ ] Custom conversion presets
+- [ ] Automated quality optimization
+- [ ] File integrity verification
+- [ ] Compression statistics and reports
+- [ ] Command completion for shells
+
 ## **Contributing**
 Contributions are welcome! Feel free to submit issues or pull requests.
 

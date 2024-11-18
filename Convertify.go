@@ -130,7 +130,7 @@ func convertDocxTopdf(inputPath, outputPath string)  error {
 
 	inputDir := dir + string(os.PathSeparator) + inputPath
 	outputDir := dir + string(os.PathSeparator) + outputPath
-	cmd := exec.Command("powershell", "-ExecutionPolicy", "Bypass", "-File", "convertDocxToPdf.ps1", 
+	cmd := exec.Command("powershell", "-ExecutionPolicy", "Bypass", "-File", "scripts/convertDocxToPdf.ps1", 
 	"-inputPath", inputDir,
 	"-outputPath", outputDir, 
 )
@@ -152,7 +152,7 @@ func convertPdfToDocx (inputPath, outputPath string)  error {
 	inputDir := dir + string(os.PathSeparator) + inputPath
 	outputDir := dir + string(os.PathSeparator) + outputPath
 
-	cmd := exec.Command("powershell", "-ExecutionPolicy", "Bypass", "-File", "convertPdfToDocx.ps1",
+	cmd := exec.Command("powershell", "-ExecutionPolicy", "Bypass", "-File", "scripts/convertPdfToDocx.ps1",
 	"-inputPath", inputDir,
 	"-outputPath", outputDir,
 )
@@ -328,8 +328,5 @@ func compressJpg(inputPath string, outputPath string, quality int) error {
 }
 
 func main() {
-	fmt.Println("== Need Assistance? ==")
-	fmt.Println("Type 'convertify help' to access the complete usage guide and instructions.")
-	
 	readArgs()
 }
